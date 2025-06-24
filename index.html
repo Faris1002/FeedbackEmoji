@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emoji Feedback</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/b0dae1be20.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Rate your experience</h2>
+    <div class="emoji-container">
+      <div class="emoji" id="emoji">😐</div>
+      <div class="label" id="label">Average</div>
+    </div>
+
+    <div class="stars" id="stars">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </div>
+
+    <div class="feedback-box" id="feedback-box">
+      <textarea id="inpEl" placeholder="Tell us more..."></textarea>
+      <button onclick="viewFeedback()">Submit</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
